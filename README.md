@@ -10,8 +10,14 @@ A rhythm training system developed using STM32.
 - Interrupt-based button input
 - UART communication for training results
 
-## Tech Stack
-- STM32F446RE
-- C
-- STM32CubeIDE
-- GPIO / EXTI / I2C / UART
+## Hardware
+- STM32 Nucleo-F446RE
+- SSD1306 OLED Display (I2C)
+- Push Button
+- Passive Buzzer
+
+  
+## Development Environment
+- Language: C
+- IDE: STM32CubeIDE
+- Framework: STM32 HAL Driver
